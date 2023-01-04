@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background: black;
+    color: pink;
+    font-size: 4em;
+}
+
+.container {
+    max-width: 2000px;
+}
+
+.totalling-h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+p {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin: 60px;
+}
+
+.totalling-img {
+    display: flex;
+    justify-content: center;
+}

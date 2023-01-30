@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+}
+
+header div.header-content {
+    font-family: Unbounded, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 75px;
+}
+
+header a {
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+header a img{
+    width: 150px;
+    margin-top: 5px;
+    cursor: default;
+}
+
+header ul {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: black;
+}
+
+header ul li a:hover {
+    color: #a90c1a;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Bitter, Arial, sans-serif;
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 1.5em;
+    background: url(images/igreja.jpg); 
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main div.title{
+    height: 15%;
+    position: absolute;
+    transform: translate(-100%, 270%);
+    color: white;
+}
+
+main div.title h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+main div.title h1 span {
+    color: #ad2833;
+}
+  
+
+main div.title h4 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 90%;
+    color: white;
+}
+
+main div.title h4 span{
+    background-color: black;
+}
+
+main div.title h4 span#golden {
+    color: rgb(236, 182, 45);
+}
+
+article {
+    margin-top: 100px;
+    font-family: Bitter, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+article section {
+    max-width: 40vw;
+}
+
+article section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+article section p {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+article.button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+article.button button {
+    padding: 16px;
+    border: none;
+   
+    background-color: #a90c1a;
+}
+
+article.button button a{
+    text-decoration: none;
+    color: white;
+    font-family: Bitter, Arial, sans-serif;
+}
+
+#hr {
+    display: flex;
+    justify-content: center;
+}
+
+#hr hr {
+    width: 45%;
+    opacity: 50%;
+}
+
+.depoimentos{
+    height: 100vh;
+
+}
+
+.depoimentos section {
+    display: flex;
+    justify-content: center;
+}
+
+div.d-title {
+    font-size: 1.8em;
+    width: 100%;
+    margin-right: 200px;
+   
+}
+
+.depoimentos section div h2 {
+   width: 100%;
+}
+
+
+

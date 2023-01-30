@@ -1,0 +1,200 @@
+@media screen and (max-width: 1250px) {
+
+    main div.title{
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, 270%);
+        color: white;
+        transition: .3s;
+    }
+    
+    .depoimentos-content .depoimentos-1 {
+        height: 40%;
+    }
+
+    .depoimentos-content .depoimentos-2  {
+        height: 35%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    main div.title{
+        height: 15%;
+        position: absolute;
+        transform: translate(-40%, 270%);
+        color: white;
+        transition: .3s;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+    }
+
+    header a img {
+        width: 100px;
+        margin-top: 5px;
+        cursor: default;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    
+    .depoimentos-1-1-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .depoimentos-1-2-title {      
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .depoimentos-2-1-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .depoimentos-2-2-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .depoimentos-1-1-title h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .depoimentos-1-2-title h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .depoimentos-2-1-title h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .depoimentos-2-2-title h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .depoimentos-content .depoimentos-1 {
+        height: 45%;
+    }
+
+    .depoimentos-content .depoimentos-2  {
+        height: 40%;
+    }
+
+    main div.title{
+        height: 15%;
+        position: absolute;
+        transform: translate(-20%, 270%);
+        color: white;
+        transition: .3s;
+    }
+    
+}
+
+@media screen and (max-width: 890px) {
+    .depoimentos-content .depoimentos-1 {
+        height: 51%;
+    }
+
+    .depoimentos-content .depoimentos-2  {
+        height: 42%;
+    }
+
+
+    header div.header-content {
+        font-family: Unbounded, Arial, Helvetica, sans-serif;
+        display: flex;
+        text-align:center;
+        background-color: white;
+        height: 160px;
+        margin-right: 75px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header ul li{
+        margin-top: 5px;
+        margin-right: 6px;
+    }
+    
+    header div a{
+        margin-left: 50px;
+    }
+
+    header a img{
+        width: 150px;
+        margin-top: 25px;
+        
+        cursor: default;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    main div.title{
+        height: 15%;
+        position: absolute;
+        transform: translate(0%, 180%);
+        color: white;
+        transition: .3s;
+        width: 200px;
+    }
+
+    .depoimentos-content .depoimentos-1{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        margin-bottom: 0;
+    }
+
+    .depoimentos-content .depoimentos-1 .depoimentos-1-1{
+        width: 100%;
+        
+    }
+
+    .depoimentos-content .depoimentos-1 .depoimentos-1-2{
+        width: 100%;     
+
+    }
+
+    .depoimentos-content .depoimentos-2{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        margin-top: 0;
+    }
+
+    .depoimentos-content .depoimentos-2 .depoimentos-2-1{
+    width: 100%;
+    
+    }
+
+    .depoimentos-content .depoimentos-2 .depoimentos-2-2{
+        width: 100%;
+
+    }
+
+    article section.inesquecivel {
+        width: 80vw;
+    }
+
+    main span {
+        background-color: black;
+    }
+
+}
